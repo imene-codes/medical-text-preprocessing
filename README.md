@@ -31,3 +31,16 @@ Preprocessing is the first step in your medical NLP pipeline and ensures data qu
   - `data/train_preprocessed.csv`  
   - `data/test_preprocessed.csv`  
 - Example preprocessed text:
+
+---
+
+## Usage
+```python
+import pandas as pd
+
+train_df = pd.read_csv("data/train_preprocessed.csv")
+test_df = pd.read_csv("data/test_preprocessed.csv")
+
+print(train_df.head())
+
+- 
